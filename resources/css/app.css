@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+  --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --bg-color: #f9f9fb;
+  --card-color: #ffffff;
+  --border-color: #e0e0e0;
+  --text-color: #212529;
+  --subtle-text: #6c757d;
+  --line-azul: #0072ce;
+  --line-amarela: #ffc20e;
+  --line-verde: #00875a;
+  --line-vermelha: #e30613;
+}
+
+.form-control {
+  background-color: var(--card-color);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.line-card {
+  background-color: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  transition: box-shadow 0.2s ease;
+}
+
+.line-card,.station-header:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+h1, .fs-2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.line-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.line-status {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.badge-time {
+  background-color: #dee2e6;
+  color: #343a40;
+  font-weight: 500;
+}
+.badge-soon {
+  background-color: #ffeeba;
+  color: #856404;
+}
+
+.line-card,
+.station-card {
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.station-header {
+  background-color: var(--card-color);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  font-weight: 500;
+}
+
+.badge-danger {
+  background-color: #c5303e; /* Medium red */
+  color: #fbeaec;            /* Soft light red text */
+}
+
+.badge-first {
+  background-color: #e0a800; /* Medium yellow */
+  color: #fff8dc;            /* Light yellow/cream text */
+}
+
+.badge-secondary {
+  background-color: #6c757d; /* Bootstrap gray (base) */
+  color: #f1f3f5;            /* Soft light gray text */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.line-blue {
+  border-left: 6px solid var(--line-azul);
+}
+.line-yellow {
+  border-left: 6px solid var(--line-amarela);
+}
+.line-green {
+  border-left: 6px solid var(--line-verde);
+}
+.line-red {
+  border-left: 6px solid var(--line-vermelha);
+}
+
+.app-header {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  text-align: center;
+}

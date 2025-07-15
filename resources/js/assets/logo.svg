@@ -1,0 +1,13 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo Olhó MetroLX">
+  <rect width="150" height="150" rx="24" fill="#212529" />
+  
+  <!-- Linhas Metro (M estilizado com 4 cores) -->
+  <path d="M45 105 L45 45 L75 85 L105 45 L105 105" stroke="#ffe600" stroke-width="12" stroke-linejoin="round" />
+  <path d="M55 105 L55 55 L80 85 L95 55 L95 105" stroke="#dc3545" stroke-width="8" stroke-linejoin="round" />
+  <path d="M65 105 L65 65 L85 85 L85 65 L85 105" stroke="#0d6efd" stroke-width="6" stroke-linejoin="round" />
+  <path d="M75 105 L75 75 L90 85 L90 75 L90 105" stroke="#198754" stroke-width="4" stroke-linejoin="round" />
+  
+  <text x="75" y="135" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="20" fill="#ffe600" text-anchor="middle" letter-spacing="1">
+    Olhó MetroLX
+  </text>
+</svg>
